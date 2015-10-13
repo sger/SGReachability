@@ -7,11 +7,22 @@
 //
 
 #import "SGAppDelegate.h"
+#import "SGReachabilityController.h"
 
 @implementation SGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    if ([SGReachabilityController isReachable]) {
+        NSLog(@"isReachable");
+    } else if ([SGReachabilityController isReachableViaWiFi]) {
+        NSLog(@"isReachableViaWiFi");
+    } else if ([SGReachabilityController isReachableViaWWAN]) {
+        NSLog(@"isReachableViaWWAN");
+    } else if ([SGReachabilityController isUnreachable]) {
+        NSLog(@"isUnreachable");
+    }
+    
     // Override point for customization after application launch.
     return YES;
 }
