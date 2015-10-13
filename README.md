@@ -1,6 +1,5 @@
 # SGReachability
 
-[![CI Status](http://img.shields.io/travis/Spiros Gerokostas/SGReachability.svg?style=flat)](https://travis-ci.org/Spiros Gerokostas/SGReachability)
 [![Version](https://img.shields.io/cocoapods/v/SGReachability.svg?style=flat)](http://cocoapods.org/pods/SGReachability)
 [![License](https://img.shields.io/cocoapods/l/SGReachability.svg?style=flat)](http://cocoapods.org/pods/SGReachability)
 [![Platform](https://img.shields.io/cocoapods/p/SGReachability.svg?style=flat)](http://cocoapods.org/pods/SGReachability)
